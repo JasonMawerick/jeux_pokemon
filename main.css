@@ -1,0 +1,36 @@
+
+#gameContainer {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 24, 0.5);
+    position:relative;
+    overflow: hidden;
+  }
+  
+  #player {
+    width: 40px;
+    height: 40px;
+    background-image: url('roxanne_sprite/face.png');
+    background-size: 100%;
+    background-position: center;
+    position:absolute;
+    z-index: 2;
+  }
+  #bomb{
+    width : 40px;
+    height : 40px;
+    background-image: url('bomb_sprite/pokeball.png');
+    position : absolute;
+    display : none;
+    background-size : 100%;
+    background-position: center ;
+  }
+  .enemies{
+    width : 40px;
+    height : 40px;
+    background-image: url('pokemon_sprite/geodude-cry-right.png');
+    position : absolute;
+    background-size : 100%;
+    background-position: center ;
+  }
