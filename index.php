@@ -17,7 +17,8 @@
     </div>
 
     <script src="player.js"></script>
-    <script src="enemies.js"></script>
+    <script src="generateEnemies.js"></script>
+    <script src="moveEnemies.js"></script>
     <script src="bomb.js"></script>
     
 </body>
