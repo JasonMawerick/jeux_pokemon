@@ -8,35 +8,35 @@ function moveEnemies() {
                 case 0:
                     if (enemies[i].offsetLeft <= 720 ) {
                 enemies[i].style.top=enemies[i].offsetTop +40 +'px';
-                enemies[i].style.left=enemies[i].offsetLeft;  
+                enemies[i].style.left=enemies[i].offsetLeft +'px';  
             }
                 
                 break;
                 case 1:
                     if ( enemies[i].offsetTop <= 720 ) {
-                enemies[i].style.top=enemies[i].offsetTop +40 +'px';
-                enemies[i].style.left=enemies[i].offsetLeft;  
+                enemies[i].style.top=enemies[i].offsetTop +'px';
+                enemies[i].style.left=enemies[i].offsetLeft +40 +'px';  
             }
                 
                 break;
                 case 2:
-                    if ( enemies[i].offsetLeft >= 24  ) {
-                enemies[i].style.top=enemies[i].offsetTop;
+                    if ( enemies[i].offsetLeft >= 40  ) {
+                enemies[i].style.top=enemies[i].offsetTop +'px';
                 enemies[i].style.left=enemies[i].offsetLeft -40 +'px';  
             }
                 
                 break;
             case 3:
-                if (enemies[i].offsetTop >= 24 ) {
-                enemies[i].style.top=enemies[i].offsetTop;
-                enemies[i].style.left=enemies[i].offsetLeft -40 +'px';  
+                if (enemies[i].offsetTop >= 40 ) {
+                enemies[i].style.top=enemies[i].offsetTop -40 +'px';
+                enemies[i].style.left=enemies[i].offsetLeft +'px';  
                 }
                 
                 break;
            
         
             default:
-                break;
+     
         }
        
        
