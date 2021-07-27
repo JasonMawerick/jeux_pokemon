@@ -1,10 +1,5 @@
 let bomb=document.getElementById('bomb');
-const enemies=document.getElementsByClassName('enemies');
-/* let enemy_0=document.getElementById('enemy-0');
-let enemy_1=document.getElementById('enemy-1');
-let enemy_2=document.getElementById('enemy-2');
-let enemy_3=document.getElementById('enemy-3');
-let enemy_4=document.getElementById('enemy-4'); */
+
 
 document.addEventListener('keydown',function(event){
     if (event.code == 'Space'){

@@ -15,6 +15,7 @@
 
 
 - [ ] Déplacement des ennemis
+- [ ] Animation des ennemis lorsqu'ils se déplacent
 
 - [ ] Ecran de victoire 
 
@@ -22,3 +23,4 @@ Facultatif
 - [ ] Les ennemis lâchent des bonus en mourrant 
 - [ ] Coder les bonus 
 - [ ] Un ennemi spécial peut détruire le joueur en le touchant 
+- [ ] La pokéball ne capture qu'un seul pokémon
