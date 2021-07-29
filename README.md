@@ -14,7 +14,7 @@
 - [ ] Bloquer le déplacement sur les cases occupées par les éléments du décor 
 
 
-- [ ] Déplacement des ennemis
+- [x] Déplacement des ennemis
 - [ ] Animation des ennemis lorsqu'ils se déplacent
 
 - [ ] Ecran de victoire 

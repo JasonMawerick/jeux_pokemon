@@ -16,10 +16,12 @@
 
     </div>
 
+    <script src="app.js"></script>
     <script src="player.js"></script>
     <script src="generateEnemies.js"></script>
     <script src="moveEnemies.js"></script>
     <script src="bomb.js"></script>
+    
     
 </body>
 </html>

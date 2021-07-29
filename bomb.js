@@ -13,14 +13,10 @@ document.addEventListener('keydown',function(event){
         setTimeout (()=>bomb.style.display='none',2000);
         console.log(enemies.offsetTop-24);
         console.log(bomb.offsetTop-24);
-
-        for (let i = 0; i < 5; i++) {
-         
-            console.log(enemies[i]);
-            if(enemies[i].offsetTop >= bomb.offsetTop -24 && enemies[i].offsetTop <= bomb.offsetTop +24 &&
-                enemies[i].offsetLeft >= bomb.offsetLeft -24 && enemies[i].offsetLeft <= bomb.offsetLeft +24){
-                    setTimeout (()=>enemies[i].style.display="none",1000);
-                
+        for (let i = 0; i < enemies.length; i++) {
+            if(colisionDetect (bomb,bomb.offsetLeft, bomb.offsetTop, (enemies[i]))){
+                setTimeout (()=>enemies[i].style.display="none",1000);
+                console.log('bomb');
             }
             
         }
